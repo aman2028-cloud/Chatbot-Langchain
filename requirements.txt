@@ -1,0 +1,34 @@
+# langchain core
+langchain
+langchain-core
+
+#Open AI Integration
+langchain-openai
+openai
+
+# Anthropic Integration
+langchain-anthropic
+
+# Google Gemini Integration
+langchain-google-genai
+google-generativeai
+
+langchain-community
+
+# Hugging face 
+langchain-huggingface
+transformers
+huggingface-hub
+
+python-dotenv
+
+numpy
+scikit-learn
+
+langserve
+fastapi
+uvicorn
+ipykernel
+
+
+bs4
