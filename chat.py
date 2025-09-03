@@ -18,7 +18,7 @@ st.title(' AI Chatbot')
 
 # Model setup
 model = ChatOpenAI(
-    model="deepseek/deepseek-chat-v3.1:free",
+    model="google/gemini-2.5-flash-image-preview:free",
     base_url="https://openrouter.ai/api/v1",
 )
 
@@ -59,3 +59,4 @@ if user_input:
             st.markdown(result.content)
 
         st.session_state.message_count += 1
+
